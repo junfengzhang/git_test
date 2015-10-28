@@ -8,7 +8,7 @@
   	<servlet-name>TestGIT</servlet-name>
   	<display-name>TestGIT</display-name>
   	<description></description>
-  	<servlet-class>git.TestGIT</servlet-class>
+  	<servlet-class>com.git.test.TestGIT</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>TestGIT</servlet-name>
