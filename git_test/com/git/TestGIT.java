@@ -26,6 +26,7 @@ public class TestGIT extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().println("this is from git resp");
+		response.getWriter().println("this is from git resp2");
 		response.getWriter().flush();
 		
 	}
