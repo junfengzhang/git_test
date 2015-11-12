@@ -1,11 +1,9 @@
 package com.test;
-
 public class SayHelloWorld {
-
-	public static void main(String[] args) {
-		
+	
+	public static void main(String[] args) {		
 		System.out.println("this is from hello world");
-		
+		System.out.println("this is from develop branch");
 	}
 
 }
