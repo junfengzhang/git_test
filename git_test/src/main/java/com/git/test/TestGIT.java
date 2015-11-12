@@ -1,6 +1,4 @@
 package com.git.test;
-
-
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -28,8 +26,8 @@ public class TestGIT extends HttpServlet {
 		// TODO Auto-generated method stub
 		response.getWriter().println("this is from git resp");
 		response.getWriter().println("this is from git resp2");
-		response.getWriter().flush();
-		
+		response.getWriter().println("this is from git branch develop");
+		response.getWriter().flush();		
 	}
 
 	/**
