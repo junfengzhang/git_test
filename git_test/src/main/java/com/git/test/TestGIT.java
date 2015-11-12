@@ -26,6 +26,7 @@ public class TestGIT extends HttpServlet {
 		// TODO Auto-generated method stub
 		response.getWriter().println("this is from git resp");
 		response.getWriter().println("this is from git resp2");		
+		response.getWriter().println("this is v1.5");	
 		response.getWriter().flush();		
 	}
 
